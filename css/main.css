@@ -9,7 +9,7 @@ body {
 
 }
 #div-head {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   background-color:#EFEFEF;
   width:71%;
   height: 20%;
@@ -75,21 +75,31 @@ input{
   bottom: 5px;
   cursor: auto;
 }
-.image {
-  outline:1px solid green;
-  width: 90%;
-
-
+section{
+  width: 1200px;
+  outline: 1px solid red;
+  overflow: auto;
+  background-color: #ffb3ec;
   }
+
 img{
-  margin:10px;
-  width: 300px;
+  margin-left:55px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  float:left;
+  width:220px;
 
 }
+#img3{
+  position: relative;
+  top:200px;
+}
+
 
 li {
   float: left;
-  outline:1px solid green;
+  /*outline:1px solid green;*/
   list-style: none;
   margin: 5px;
   position: relative;
@@ -110,13 +120,14 @@ li {
   bottom:50px;
   }
 
+
 .second{
     background-color: rgba(194,149,110,.5);
     width:76px;
 }
 
 .text {
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;*/
   position: relative;
   left:  89%;
   top: 12px;
