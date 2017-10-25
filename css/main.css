@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 body {
   /*background: red;*/
 
@@ -5,45 +11,116 @@ body {
 #div-head {
   outline: 1px solid red;
   background-color:#EFEFEF;
-  width:50%;
-  height: 25%;
+  width:71%;
+  height: 20%;
   position: relative;
   left: 10%;
-  top: 10%;
+  top: 15px;
+  border-radius: 8px;
+
 }
+
+.first{
+  background-color: rgba(150,110,75,.8);
+}
+
 header{
   position: fixed;
   width: 100%;
   height: 200px;
   outline: 1px solid yellow;
-}
+  background-color: #fff;
+  }
+
 hr{
   position: relative;
-  top: 30%;
+  bottom: 21px;
+
 }
-.icon-pinterest {
-  font-size: 50px;
+.icon-circle-down{
   position: relative;
-  left: 3%;
-  top: 10%;
+  left:2%;
+
+}
+.icon-close {
+  position: relative;
+  left: 87%;
+  bottom: 6px;
+
+}
+
+.icon-search {
+  position: absolute;
+  left: 5%;
+  top: 29%;
+
+}
+
+.icon-pinterest {
+  font-size: 38px;
+  position: relative;
+  left: 63px;
+  bottom: 30px;
+}
+.icon-menu{
+  margin:50px;
+}
+input{
+  border: none;
+  line-height: 20px;
+  font-size: 18px;
+  outline: 0;
+  background-color: transparent;
+  position: relative;
+  bottom: 5px;
+  cursor: auto;
+}
+.image {
+  outline:1px solid green;
+  width: 90%;
+
+
+  }
+img{
+  margin:10px;
+  width: 300px;
+
 }
 
 li {
   float: left;
   outline:1px solid green;
   list-style: none;
-  color:white;
-  margin: 30px;
+  margin: 5px;
   position: relative;
-  top: 45px;
-  left: 30%;
+  top: 1%;
+  left: 8%;
   text-align: center;
+  color:#fff;
+  font-size: 16px;
+  width:140px;
+  height: 60px;
+  border-radius: 6px;
+  /*background-image: url(http://www.planwallpaper.com/static/images/6955940-blue-pattern-desktop-background_FqyKLQi.jpg);*/
 }
 
 .mov {
-  position: absolute;
-  right:40px;
-  top:10%;
-  font-size: 300%;
+  position: relative;
+  left:1100px;
+  bottom:50px;
+  }
 
+.second{
+    background-color: rgba(194,149,110,.5);
+    width:76px;
 }
+
+.text {
+  outline: 1px solid blue;
+  position: relative;
+  left:  89%;
+  top: 12px;
+  font-size:18px;
+  width: 100px;
+  color: #000;
+  }
